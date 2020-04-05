@@ -57,3 +57,9 @@ class Student {
         return false;
 	    }
 }
+class Course{
+	List<Student> studenti=new List<Student>();
+	public void dodadi(Student student){
+		studenti.add(student);
+	}
+}
